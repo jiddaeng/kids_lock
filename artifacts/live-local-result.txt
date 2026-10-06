@@ -1,0 +1,4 @@
+REAL LOCAL QWEN3 + ML Kit OCR: PASS
+observations=1
+purpose=STUDY
+app-switch-preserved=true

@@ -1,0 +1,21 @@
+[
+  "AGENTS.md",
+  "app\\build.gradle.kts",
+  "docs\\PROJECT_BASELINE.md",
+  "server\\relay.py",
+  "server\\test_relay.py",
+  "app\\src\\main\\AndroidManifest.xml",
+  "app\\src\\androidTest\\kotlin\\kr\\kidslock\\DeviceSmokeTest.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\MainActivity.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\capture\\ScreenObserverService.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\data\\CloudClient.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\data\\LocalStore.kt",
+  "app\\src\\main\\res\\values\\strings.xml",
+  "core\\src\\main\\kotlin\\kr\\kidslock\\core\\Analysis.kt",
+  "core\\src\\main\\kotlin\\kr\\kidslock\\core\\CloudAnalysis.kt",
+  "core\\src\\main\\kotlin\\kr\\kidslock\\core\\ContextRules.kt",
+  "core\\src\\main\\kotlin\\kr\\kidslock\\core\\Rules.kt",
+  "core\\src\\test\\kotlin\\kr\\kidslock\\core\\PresentationTest.kt",
+  "docs\\reference\\presentation-manifest.json",
+  "docs\\reference\\부산창업아이디어경진대회 예선심사_Just-1.pdf"
+]

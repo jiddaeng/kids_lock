@@ -1,0 +1,23 @@
+[Unit]
+Description=Gauroo Render-to-Qwen analysis worker
+After=network-online.target gauroo-ollama.service
+Requires=gauroo-ollama.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/just/jiddaeng/gauroo-analysis
+EnvironmentFile=%h/just/jiddaeng/gauroo-analysis/.worker-env
+Environment=GAUROO_RELAY_URL=https://gauroo-analysis.onrender.com
+Environment=GAUROO_LOG_MODEL_CONTEXT=1
+Environment=GAUROO_MODEL_LOG_PATH=%h/just/jiddaeng/gauroo-analysis/var/model.log
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 %h/just/jiddaeng/gauroo-analysis/local_worker.py
+Restart=always
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+
+[Install]
+WantedBy=default.target

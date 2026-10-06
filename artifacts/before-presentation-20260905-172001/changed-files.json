@@ -1,0 +1,10 @@
+[
+  "README.md",
+  "docs\\IMPLEMENTATION_STATUS.md",
+  "docs\\PRESENTATION_AUDIT.md",
+  "docs\\PROJECT_BASELINE.md",
+  "app\\src\\main\\AndroidManifest.xml",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\MainActivity.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\capture\\ScreenObserverService.kt",
+  "app\\src\\main\\res\\values\\strings.xml"
+]

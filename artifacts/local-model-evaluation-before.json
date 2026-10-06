@@ -1,0 +1,74 @@
+{
+  "synthetic_only": true,
+  "not_general_accuracy_benchmark": true,
+  "results": [
+    {
+      "case": "study",
+      "expected": "STUDY",
+      "actual": {
+        "purpose": "STUDY",
+        "topics": [
+          "수학",
+          "수학"
+        ],
+        "risk": "NONE",
+        "confidence": "high",
+        "model": "qwen3:4b"
+      },
+      "seconds": 13.08,
+      "pass": true
+    },
+    {
+      "case": "homework",
+      "expected": "HOMEWORK",
+      "actual": {
+        "purpose": "UNKNOWN",
+        "topics": [
+          "수학",
+          "게임",
+          "과학",
+          "수학"
+        ],
+        "risk": "POSSIBLE",
+        "confidence": "low",
+        "model": "qwen3:4b"
+      },
+      "seconds": 13.38,
+      "pass": false
+    },
+    {
+      "case": "game",
+      "expected": "GAME",
+      "actual": {
+        "purpose": "UNKNOWN",
+        "topics": [
+          "Minecraft",
+          "게임",
+          "수학",
+          "수학"
+        ],
+        "risk": "POSSIBLE",
+        "confidence": "low",
+        "model": "qwen3:4b"
+      },
+      "seconds": 10.16,
+      "pass": false
+    },
+    {
+      "case": "communication",
+      "expected": "COMMUNICATION",
+      "actual": {
+        "purpose": "UNKNOWN",
+        "topics": [
+          "친구 소통",
+          "수학"
+        ],
+        "risk": "NONE",
+        "confidence": "low",
+        "model": "qwen3:4b"
+      },
+      "seconds": 7.95,
+      "pass": false
+    }
+  ]
+}

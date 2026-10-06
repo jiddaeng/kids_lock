@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-06",
+  "apk": "gauroo-0.2.1-debug.apk",
+  "sha256": "679937b6b14a958d04a2614820b2e535abda4779d9038f22b17f619e476a75fd",
+  "endpoint": "https://gauroo-analysis.onrender.com",
+  "health_status": 200,
+  "unauthenticated_status": 401,
+  "render_status": "Live",
+  "build": "passed",
+  "lint": "passed",
+  "actual_gpt4o_call": "not_verified",
+  "device_end_to_end": "not_verified"
+}

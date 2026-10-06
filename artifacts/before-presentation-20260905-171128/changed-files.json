@@ -1,0 +1,5 @@
+[
+  "app\\src\\androidTest\\kotlin\\kr\\kidslock\\DeviceSmokeTest.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\MainActivity.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\data\\LocalStore.kt"
+]

@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "applicationId": "kr.kidslock",
+  "minSdk": 30,
+  "targetSdk": 36,
+  "apkBytes": 53191434,
+  "sha256": "0585E92A763D31FC885431BB569BE9EF41CA91E66AC80D239423DE5B5BCE04A8",
+  "coreTestsPassed": 10,
+  "deviceTestsPassed": 4,
+  "emulatorApi": 35,
+  "lintErrors": 0,
+  "lintWarnings": 19,
+  "internetPermission": false,
+  "realDeviceVerified": false
+}

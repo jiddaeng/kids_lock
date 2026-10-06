@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">키즈락</string>
+    <string name="accessibility_description">직접 선택한 앱의 화면 텍스트와 스크린샷을 기기 안에서 분석합니다. 원본 화면과 OCR 전문은 저장하거나 전송하지 않습니다. 사용시간을 기록하고, 부모와 자녀가 동의한 규칙에 따라 경고·유예·일시 제한을 적용합니다. 설정에서 언제든 수집을 멈추고 기록을 삭제할 수 있습니다.</string>
+</resources>

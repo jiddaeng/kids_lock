@@ -1,0 +1,9 @@
+[
+  "README.md",
+  "docs\\PRESENTATION_AUDIT.md",
+  "server\\README.md",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\capture\\ScreenObserverService.kt",
+  "app\\src\\main\\kotlin\\kr\\kidslock\\data\\CloudClient.kt",
+  "core\\src\\main\\kotlin\\kr\\kidslock\\core\\CloudAnalysis.kt",
+  "core\\src\\test\\kotlin\\kr\\kidslock\\core\\PresentationTest.kt"
+]

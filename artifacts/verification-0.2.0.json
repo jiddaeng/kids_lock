@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-05T17:22:38.845073",
+  "version": "0.2.0",
+  "core_tests": 16,
+  "server_contract_tests": 5,
+  "android_tests": 4,
+  "lint_errors": 0,
+  "lint_warnings": 24,
+  "apk": "C:\\DaeHueProgram\\kids\\_lock\\artifacts\\kidslock-0.2.0-debug.apk",
+  "sha256": "d0cfd6fe21dbd017af1a813244d70a21d977a27894d0bba494ae5d49c35a1052",
+  "real_openai_call": "not run: no deployment endpoint or API key provided",
+  "name_change": "pending user confirmation: HWP KidsLock vs presentation Gauroo",
+  "android_note": "Final label-only restoration followed by UI smoke; functional test source otherwise unchanged."
+}

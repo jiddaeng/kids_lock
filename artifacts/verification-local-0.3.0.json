@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-06",
+  "apk": "gauroo-0.3.0-debug.apk",
+  "sha256": "da734f233aabfe8bda0842c2f2fa1b1a17f9db62d4f9f5d5389070cc042879a8",
+  "model": "qwen3:4b",
+  "provider": "owner PC via HTTPS Render relay",
+  "android": "Android 15 dedicated KidsLock_QA emulator",
+  "real_ocr_to_local_model_to_storage": "passed",
+  "observations": 1,
+  "purpose": "STUDY",
+  "app_switch_preserved": true,
+  "live_pipeline_seconds": 64.315,
+  "core_tests": 16,
+  "server_tests": 15,
+  "android_regression_tests": 4,
+  "final_ui": "passed",
+  "lint_errors": 0,
+  "lint_warnings": 24,
+  "synthetic_purpose_cases": "4/4; not general accuracy",
+  "physical_phone_tested": false
+}

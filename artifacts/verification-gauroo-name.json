@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-06T11:59:46.176558",
+  "product_name": "가루",
+  "approved_by_user": "가루로 통일해",
+  "application_id": "kr.kidslock",
+  "apk": "C:\\DaeHueProgram\\kids\\_lock\\artifacts\\gauroo-0.2.0-debug.apk",
+  "sha256": "ceb94ce2200982b026dd5d4db7fbfa51b160deebece636cf8aeed0e9d6b959db",
+  "build": "passed",
+  "lint_errors": 0,
+  "lint_warnings": 24,
+  "scope": "Display name and documentation only; prior functional tests unchanged."
+}

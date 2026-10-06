@@ -1,0 +1,10 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewScrolled|typeWindowsChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="200"
+    android:canRetrieveWindowContent="true"
+    android:canTakeScreenshot="true"
+    android:isAccessibilityTool="false"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows|flagReportViewIds"
+    android:description="@string/accessibility_description"
+    android:settingsActivity="kr.kidslock.MainActivity" />

@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gauroo-analysis
+    runtime: python
+    plan: free
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    healthCheckPath: /healthz
+    envVars:
+      - key: GAUROO_RELAY_TOKEN
+        generateValue: true
+      - key: GAUROO_DAILY_REQUEST_LIMIT
+        value: "1000"
